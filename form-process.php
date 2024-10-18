@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Basic validation
     if (!empty($name) && !empty($email) && !empty($message) && filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Prepare email
-        $to = "myemail@gmail.com"; // Change this to your email address
+        $to = "smsemenuk2018@gmail.com"; // Change this to your email address
         $subject = "New Message from Contact Form";
         $body = "Name: $name\nEmail: $email\nMessage: $message";
         $headers = "From: $email";
